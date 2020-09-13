@@ -5,31 +5,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ethan Perlada</title>
+    <!-- Google Fonts -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap");
+    </style>
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/c6deb50dff.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <img
-          src="./img/headshot.jpg"
-          id="headshot"
-          alt="Picture of Ethan Perlada"
-        />
-        <h1 id="name">Ethan Perlada</h1>
-        <p>
-          Hi, I'm Ethan! I'm a current Computer Science student at the
-          University of California, Santa Cruz.
-        </p>
-      </div>
-      <div class="links">
-        <a href="about.html">About</a>
-        <a href="./Ethan_Perlada_Resume.pdf" target="_blank">Resume</a>
-        <a href="https://github.com/eperlada" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/ethanperlada" target="_blank"
-          >LinkedIn</a
-        >
-        <a href="mailto:eperlada@ucsc.edu">Email</a>
-      </div>
-    </div>
+    <header>
+      <img
+        src="./img/headshot.jpg"
+        id="headshot"
+        alt="Picture of Ethan Perlada"
+      />
+      <h1 id="name">Ethan Perlada</h1>
+    </header>
+    <section class="blurb">
+      <p>
+        Hi, I'm Ethan! I'm a third year Computer Science student at the
+        <a href="http://www.ucsc.edu" target="_blank"
+          >University of California, Santa Cruz.
+        </a>
+      </p>
+      <p>
+        In my free time, I love playing video games, watching basketball (go
+        Warriors!) and listening to electronic music.
+      </p>
+      <p>
+        Feel free to check out my
+        <a href="./Ethan_Perlada_Resume.pdf">resumé</a> and connect with me
+        below!
+      </p>
+    </section>
+    <nav>
+      <a title="Resumé" href="./Ethan_Perlada_Resume.pdf" target="_blank">
+        <i class="fas fa-file"></i> <span>Resumé</span>
+      </a>
+      <a title="GitHub" href="https://github.com/eperlada" target="_blank">
+        <i class="fab fa-github"></i> <span>GitHub</span></a
+      >
+      <a
+        title="LinkedIn"
+        href="https://linkedin.com/in/ethanperlada"
+        target="_blank"
+      >
+        <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
+      </a>
+      <a title="eperlada@ucsc.edu" href="mailto:eperlada@ucsc.edu">
+        <i class="fas fa-envelope"></i> <span>Email</span></a
+      >
+    </nav>
   </body>
 </html>
