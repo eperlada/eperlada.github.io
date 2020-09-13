@@ -6,7 +6,7 @@
 }
 body {
   color: var(--textColor);
-  margin: 10vh auto;
+  margin: 6vh auto;
   max-width: 50em;
   font-family: "Noto Sans", sans-serif;
 }
