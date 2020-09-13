@@ -54,7 +54,8 @@ nav {
     margin: 5vh 20px;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+    margin: auto 0;
   }
   #headshot {
     height: 200px;
